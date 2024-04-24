@@ -220,8 +220,8 @@ body {
     max-width: 80rem;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
 }
 
 .header{
@@ -268,6 +268,59 @@ body {
 }
 
 
+
+/* header button/Main */
+
+.header-buttom{
+
+    display: flex;
+    margin-top: 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: TTNorms;
+
+}
+
+.left--buttomHeader{
+    max-width: 27.5rem;
+
+}
+.leftHeader-title{
+
+}
+.leftHeader-text{
+    color: #6C7890;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+.leftHeader-buttons{
+    display: flex;
+    gap: 1rem;
+}
+.leftHeader-button{
+    font-size: 0.8rem;
+    color: #fff;
+    width: 7.5rem;
+   height: 2rem;
+   text-align: center;
+   align-content: center;
+   border-radius: 0.3rem;
+   /* margin-top: 1.3rem; */
+
+}
+.leftHeader-button1{
+    background: #87BC25;
+}
+.leftHeader-button2{
+    background: #2F5BEA;
+}
+.rigth--buttomHeader{
+
+}
+.rightHeader-img{
+
+}
 
 
 
