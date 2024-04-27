@@ -282,7 +282,7 @@ body {
 }
 
 .left--buttomHeader{
-    max-width: 27.5rem;
+    
 
 }
 .leftHeader-title{
@@ -290,9 +290,9 @@ body {
 }
 .leftHeader-text{
     color: #6C7890;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
-
+    max-width: 21.5rem;
 }
 .leftHeader-buttons{
     display: flex;
@@ -319,16 +319,47 @@ body {
 
 }
 .rightHeader-img{
-
+    /* max-width: 25rem; */
 }
 
 
+/* first section from main */
 
+.first-section{
+    font-family: TTNorms;
+    margin-top: 8rem;
+}
+.title_first-section{
+    text-align: center;
+    color: #6C7890;
+    font-size: 0.7rem;
+}
+.descrip_first-section{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.container_first-section{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    gap: 3rem;
+    margin: 1.5rem 0;
+}
+.item_first-section{
+    max-width: 13rem;
+}
+.title_item_first-srction{
+    font-size: 0.8rem;
+}
+.descript_item_first-srction{
+    color: #6C7890;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+.img_first-section{
+    text-align: center;
 
-
-
-
-
+}
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
