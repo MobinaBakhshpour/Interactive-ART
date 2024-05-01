@@ -360,6 +360,75 @@ body {
     text-align: center;
 
 }
+
+/* second section */
+.second-section{
+    background-color: #2F5BEA;
+    text-align: center;
+    padding: 2rem 0 ;
+    margin-top: 4.5rem;
+}
+
+.title-second_section{
+    color: #fff;
+    font-family:  'TTNorms Medium';
+    font-weight: normal;
+}
+.descrip-second_section{
+    color: #fff;
+    font-family:  'TTNorms Light';
+    line-height: 1.5rem;
+}
+.comments{
+    display: flex;
+    text-align: left;
+    margin-top: 6rem;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+.comment{
+    background-color: #fff;
+    color: #7E8085;
+    font-family: 'Times Roman Italic';
+    padding: 0 1.2rem;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    justify-content: space-between;
+    max-width: 18rem;
+    
+}
+.comment-body{
+    font-size: 0.9rem;
+}
+.text-comment_body{
+
+}
+.comment-info{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #E8EBEF;
+    
+
+}
+.userimg-comment{
+    margin-right: 0.5rem;
+}
+.username-comment{
+    color: #000;
+    font-family: 'TTNorms';
+    font-size: 0.9rem;
+}
+.logoimgs{
+    margin-top: 9rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
