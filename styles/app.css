@@ -299,7 +299,7 @@ body {
     gap: 1rem;
 }
 .leftHeader-button{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #fff;
     width: 7.5rem;
    height: 2rem;
@@ -329,12 +329,12 @@ body {
     font-family: TTNorms;
     margin-top: 8rem;
 }
-.title_first-section{
+.title_first-section,.title_third-section{
     text-align: center;
     color: #6C7890;
     font-size: 0.7rem;
 }
-.descrip_first-section{
+.descrip_first-section,.descrip_third-section{
     text-align: center;
     font-size: 1.5rem;
 }
@@ -379,12 +379,15 @@ body {
     font-family:  'TTNorms Light';
     line-height: 1.5rem;
 }
+
+.comments-container{
+    margin: 6rem auto auto;
+    max-width: 60rem;
+}
 .comments{
     display: flex;
     text-align: left;
-    margin-top: 6rem;
-    gap: 2rem;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .comment{
@@ -395,7 +398,7 @@ body {
     border-radius: 0.2rem;
     display: flex;
     flex-direction: column;
-    height: 13rem;
+    min-height: 13rem;
     justify-content: space-between;
     max-width: 18rem;
     
@@ -424,10 +427,33 @@ body {
 .logoimgs{
     margin-top: 9rem;
     display: flex;
-    gap: 5rem;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logoimg{
+    margin: 0.5rem 0;
 }
 
+/* third section */
+.third-section{
+    text-align: center;
+    padding: 3rem 0;
+}
+.sample-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+
+}
+.sample-item{
+    flex-basis: 22rem;
+    margin-bottom: 1rem;
+}
+.sample-img{
+    width: 100%;
+}
 
 /* Project Responsive */
 
