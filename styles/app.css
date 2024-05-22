@@ -455,6 +455,57 @@ body {
     width: 100%;
 }
 
+/* Footer */
+.news-letters{
+    background: #2C57E4;
+    padding: 4rem 0;
+    
+}
+.email-box_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.news-letters_text{
+    font-size: 1.1rem;
+}
+.email-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 18rem;
+    background-color: #fff;
+    padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+}
+.email-box_input{
+    height: 2rem;
+    outline: none;
+    border: none;
+    
+
+}
+.email-box_img{
+    background-color: #2F5BEA;
+    outline: none;
+    border: none;
+    width: 2.2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+
+.copywrite-box{
+    padding: 1rem 0;
+}
+.copywrite-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6C7890;
+    font-size: 0.8rem;
+}
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
