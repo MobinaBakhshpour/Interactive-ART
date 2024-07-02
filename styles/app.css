@@ -263,7 +263,7 @@ body {
     text-decoration: none;
     color: #fff;
     background-color: #0050C8;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     padding: 0.5rem 1rem;
 }
 
@@ -286,7 +286,7 @@ body {
 
 }
 .leftHeader-title{
-
+    line-height: 1.4;
 }
 .leftHeader-text{
     color: #6C7890;
@@ -297,6 +297,7 @@ body {
 .leftHeader-buttons{
     display: flex;
     gap: 1rem;
+    margin-top: 2rem;
 }
 .leftHeader-button{
     font-size: 0.9rem;
@@ -305,7 +306,7 @@ body {
    height: 2rem;
    text-align: center;
    align-content: center;
-   border-radius: 0.3rem;
+   border-radius: 0.2rem;
    /* margin-top: 1.3rem; */
 
 }
@@ -327,7 +328,7 @@ body {
 
 .first-section{
     font-family: TTNorms;
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 .title_first-section,.title_third-section{
     text-align: center;
@@ -365,8 +366,9 @@ body {
 .second-section{
     background-color: #2F5BEA;
     text-align: center;
+    margin-top: 4rem;
     padding: 2rem 0 ;
-    margin-top: 4.5rem;
+    
 }
 
 .title-second_section{
@@ -438,7 +440,7 @@ body {
 /* third section */
 .third-section{
     text-align: center;
-    padding: 3rem 0;
+    margin: 4rem 0;
 }
 .sample-items{
     display: flex;
@@ -453,6 +455,9 @@ body {
 }
 .sample-img{
     width: 100%;
+    height: 100%;
+    border-radius: 0.2rem;
+    object-fit: cover;
 }
 
 /* Footer */
@@ -478,7 +483,7 @@ body {
     flex-basis: 18rem;
     background-color: #fff;
     padding: 0.2rem 0.2rem 0.2rem 0.5rem;
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
 }
 .email-box_input{
     height: 2rem;
@@ -493,11 +498,11 @@ body {
     border: none;
     width: 2.2rem;
     height: 2rem;
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
 }
 
 .copywrite-box{
-    padding: 1rem 0;
+    padding: 0.3rem 0;
 }
 .copywrite-wrapper{
     display: flex;
