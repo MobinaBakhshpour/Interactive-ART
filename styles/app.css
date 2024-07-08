@@ -266,6 +266,9 @@ body {
     border-radius: 0.2rem;
     padding: 0.5rem 1rem;
 }
+.header-icone{
+    display: none;
+}
 
 
 
@@ -282,8 +285,7 @@ body {
 }
 
 .left--buttomHeader{
-    
-
+    flex-basis: 50%;
 }
 .leftHeader-title{
     line-height: 1.4;
@@ -317,10 +319,10 @@ body {
     background: #2F5BEA;
 }
 .rigth--buttomHeader{
-
+    flex-basis: 50%;
 }
 .rightHeader-img{
-    /* max-width: 25rem; */
+    width: 100%;
 }
 
 
@@ -522,6 +524,29 @@ body {
 @media only screen and (max-width: 992px) {
     .container {
         max-width: 720px;
+    }
+    .header-link{
+        display: none;
+    }
+    .menu{
+        position: fixed;
+        left: -240px;
+        top: 0;
+        bottom: 0;
+        flex-direction: column;
+        background-color: #2F5BEA;
+        font-family: 'TTNorms';
+        width: 15rem;
+        align-items: normal;
+        padding: 1rem 1.5rem;
+        
+    }
+    .menu-link{
+        color: #fff;
+    }
+    .header-icone{
+        display: block;
+        font-size:1rem
     }
 }
 
