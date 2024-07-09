@@ -361,7 +361,12 @@ body {
 }
 .img_first-section{
     text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
 
+}
+.img_first-section img{
+    width: 100%;
 }
 
 /* second section */
@@ -534,6 +539,7 @@ body {
          width: 100%;
          gap:0
     }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -545,6 +551,7 @@ body {
         left: -240px;
         top: 0;
         bottom: 0;
+        transition: 0.1s all;
         flex-direction: column;
         background-color: #2F5BEA;
         font-family: 'TTNorms';
@@ -591,5 +598,11 @@ body {
     }
     .left--buttomHeader{
         margin-top: 2rem;
+    }
+    .container_first-section{
+        flex-wrap: wrap;
+    }
+    .img_first-section{
+        margin-top: 3.5rem;
     }
 }
