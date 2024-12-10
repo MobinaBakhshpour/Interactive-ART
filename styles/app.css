@@ -434,7 +434,7 @@ body {
     font-size: 0.9rem;
 }
 .logoimgs{
-    margin-top: 9rem;
+    margin: 9rem auto 21.44px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -539,6 +539,13 @@ body {
          width: 100%;
          gap:0
     }
+    .comments{
+        gap: 0.3rem;
+    }
+    .logoimg{
+        width: 6rem;
+    }
+
     
 }
 
@@ -580,6 +587,22 @@ body {
     .header-buttom{
         margin-top: 1.5rem;
     }
+    .comments{
+        gap: 0.3rem;
+    }
+    .logoimgs{
+        width: 4rem;
+        justify-content: center;
+    }
+    .email-box_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copywrite-wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -604,5 +627,15 @@ body {
     }
     .img_first-section{
         margin-top: 3.5rem;
+    }
+    .comments{
+        flex-direction: column;
+    }
+    .logoimgs{
+        flex-direction: column;
+        width: 5rem;
+    }
+    .copywrite-wrapper{
+        font-size: 0.6rem;
     }
 }
